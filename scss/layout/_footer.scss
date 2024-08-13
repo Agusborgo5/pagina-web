@@ -1,0 +1,18 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff6c7;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+
+    border-bottom:4px solid #ffc1b2;
+        nav ul{
+        list-style-type: none;
+        display: flex;
+            li{
+            margin: 15px;
+            }
+         }
+}

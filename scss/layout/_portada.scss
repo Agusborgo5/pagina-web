@@ -1,0 +1,23 @@
+
+.tituloIndex{
+    background-color: #fff6c7;
+    color: black;
+    padding: 50px;
+    text-align: center;
+    border: 5px solid #ffc1b2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagenIndex{
+    display: flex;
+    flex-direction: column;
+    padding: 15%;
+}
+
+.imagen-principal{
+    display: flex;
+    flex-direction: column;
+
+    height: 300px;
+    width: 100%;
+}

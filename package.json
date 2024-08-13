@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "sass": "^1.77.8"
+  },
+  "name": "aguscorder2",
+  "version": "1.0.0",
+  "description": "Descripcion del proyecto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
