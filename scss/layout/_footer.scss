@@ -1,18 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 footer{
     display: flex;
     flex-direction: column;
-    background-color: #fff6c7;
+    background-color:#8c281a;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
+    padding: 5px;
     font-size: 15px;
 
-    border-bottom:4px solid #ffc1b2;
+    border-bottom:4px solid #f9a980;
         nav ul{
         list-style-type: none;
         display: flex;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             li{
-            margin: 15px;
+                a{
+                    color: #ffe1b0;
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif;
+                transition: 1s;
+                margin: 15px;
+                }
             }
          }
 }
