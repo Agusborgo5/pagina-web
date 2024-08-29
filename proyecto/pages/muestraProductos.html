@@ -4,25 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <header>
-    <nav>
-        <ul class="header">
-            <li><a class="cambioColor" href="../pages/producto.html">Productos </a></li>
-            <li><a class="cambioColor" href="../pages/muestraReceta.html">Recetas </a></li>
-            <li><a class="cambioColor" href="../index.html"> <img class="imagen-header" src="../imagenes/corazonUno.png" alt=""></a></li>
-            <li><a class="cambioColor" href="../pages/nosotros.html">Nosotros  </a></li>
-            <li><a class="cambioColor" href="../pages/contacto.html"> Contacto</a></li>
-        </ul>
-    </nav>
-    
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/proyecto/index.html">Redondo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="/proyecto/pages/muestraProductos.html"> Productos</a>
+            <a class="nav-item nav-link" href="/proyecto/pages/muestraReceta.html">Recetas</a>
+            <a class="nav-item nav-link" href="/proyecto/pages/nosotros.html">Nosotros</a>
+            <a class="nav-item nav-link" href="/proyecto/pages/contacto.html">Contacto</a>
+          </div>
+        </div>
+      </nav>
+
 </header>
 <body>
     <section class="grid-container">
       
-        <div class="grid-item-01">RECETA UNO</div>
-        <div class="grid-item-01">RECETA DOS</div>
+        <div class="grid-item-06">
+
+          <div class="card" style="width: 18rem; height: 30rem;">
+            <img src="/proyecto/imagenes/producto1.png" alt="" >
+            <div class="card-body">
+              <h5 class="card-title">CACEROLA</h5>
+              <p class="card-text">Descubre la cacerola ideal para tus comidas diarias. Fabricada con materiales de alta calidad, garantiza 
+                una cocción uniforme y eficiente gracias a su fondo de excelente conducción térmica.</p>
+              <a href="#" class="btn btn-primary">Consultar</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="grid-item-07">
+
+          <div class="card" style="width: 18rem; height: 30rem;">
+            <img class="imagen" src="/proyecto/imagenes/producto4.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">PAVA</h5>
+              <p class="card-text">Mejora tu rutina diaria con nuestra elegante pava de acero inoxidable. Diseñada para hervir agua de manera rápida y eficiente, 
+                esta pava presenta un acabado duradero y resistente a la corrosión.</p>
+              <a href="#" class="btn btn-primary">GConsultar</a>
+            </div>
+          </div>
+
+        </div>
+
+        </div>
+
+        </div>
   
       </section>
 </body>
