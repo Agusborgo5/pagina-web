@@ -1,21 +1,52 @@
-body{
-    section{
+section{
+    padding: 15px;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(6, 1fr);
 
         grid-template-rows: repeat(3, 150px);
 
         gap: 15px;
-    }
-
     .grid-item-06{
-       .cacerola-imagen{
-            height: 200px;
-            width: 200px;
-           }
+        background-color:#f0dacc;
+        grid-column: 1/2;
+        grid-row: 1/4   ;
+        border-radius: 10px;
+        h1{
+            color: black;
+        }
+        .lista{
+            padding: 20px;
+            ul{
+                list-style: none;
+                li{
+                    .btn{
+                        background-color: white;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+    .grid-item-07{
+        grid-column: 2/7;
+        grid-row: 1/4   ;
+        border-radius: 10px;
+
+        .wrapper{
+            padding: 15px;
+            flex-direction: column;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            grid-auto-rows: minmax(100px, auto);
+
+            .btn{
+                background-color: #f0dacc;
+                color: black;
+            }
+           
+        }
     }
 
-    .grid-item-07{
-        
-    }   
+   
 }
